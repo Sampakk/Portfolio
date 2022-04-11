@@ -47,59 +47,57 @@ a:hover{
         overflow-y: auto;
     }
     #leftContent{
-        width: 37%;
-        height: 100%; 
+        width: 33%;
+        height: auto;  
+        margin: auto;
         float: left;
-        padding-left: 3%;
+        font-size: x-large;
+        text-align: center;
         padding-top: 10%;
-        padding-bottom: 5%;
-        position: relative;
     }
     #centerContent{
-        width: 20%;
-        height: 100%;  
+        width: 34%;
+        height: auto;  
+        margin: auto;
         float: left;
+        text-align: center;
         padding-top: 10%;
-        padding-bottom: 5%;
-        position: relative;
     }
     #rightContent{
-        width: 20%;
-        height: 100%;;    
-        float: right;
-        padding-right: 3%;
+        width: 33%;
+        height: auto;  
+        margin: auto;
+        float: left;
+        font-size: x-large;
+        text-align: center;
         padding-top: 10%;
-        padding-bottom: 5%;
-        position: relative;
     }
     #leftContentResume{
-        width: 30%;
-        height: 100%; 
-        padding-left: 3%;
-        padding-top: 5%;
-        padding-bottom: 5%;
+        width: 33%;
+        height: auto;
         margin: auto;
         float: left;
         font-size: x-large;
+        text-align: center;
+        padding-top: 10%;
     }
     #centerContentResume{
-        width: 30%;
-        height: 100%;  
+        width: 34%;
+        height: auto;  
         margin: auto;
         float: left;
         font-size: x-large;
-        padding-top: 5%;
-        padding-bottom: 5%;
+        text-align: center;
+        padding-top: 10%;
     }
     #rightContentResume{
-        width: 30%;
-        height: 100%;;    
-        padding-right: 3%;
-        padding-top: 5%;
-        padding-bottom: 5%;
+        width: 33%;
+        height: auto;  
         margin: auto;
         float: left;
         font-size: large;
+        text-align: center;
+        padding-top: 10%;
     }
     #leftContentGame{
         width: 100%;
@@ -149,33 +147,34 @@ a:hover{
     }
     #leftContentContact{
         width: 30%;
+        height: auto;
         padding-left: 3%;
         padding-top: 10%;
         padding-bottom: 10%;
         margin: auto;
         float: left;
-        position: relative;
-
+        text-align: center;
     }
     #centerContentContact{
         width: 30%;
+        height: auto;
         padding-left: 3%;
         padding-top: 10%;
         padding-bottom: 10%;
         margin: auto;
         float: left;
-        position: relative;
+        text-align: center;
 
     }
     #rightContentContact{
         width: 30%;
-        height: 100%; 
+        height: auto; 
         padding-left: 3%;
         padding-top: 6.5%;
         padding-bottom: 5%;
         margin: auto;
         float: left;
-        position: relative;
+        text-align: center;
         font-size: x-large;
 
     }
@@ -215,24 +214,27 @@ a:hover{
         overflow-y: auto;
     }
     #leftContent{
-        width: 80%;
-        height: 30%; 
-        padding-left: 3%;
-        padding-top: 5%;
-        padding-bottom: 5%;
+        width: 100%;
+        height: auto;  
         margin: auto;
+        font-size: medium;
+        text-align: center;
+        padding-top: 10%;
     }
     #centerContent{
         width: 100%;
-        height: 30%;  
+        height: auto;  
         margin: auto;
+        text-align: center;
+        padding-top: 10%;
     }
     #rightContent{
-        width: 80%;
-        height: 30%;;    
-        padding-top: 5%;
-        padding-bottom: 5%;
+        width: 100%;
+        height: auto;  
         margin: auto;
+        font-size: medium;
+        text-align: center;
+        padding-top: 10%;
     }
     #leftContentResume{
         width: 80%;
@@ -256,6 +258,25 @@ a:hover{
         padding-bottom: 5%;
         margin: auto;
         font-size: medium;
+    }
+    #leftContentGame{
+        width: 100%;
+        height: auto;
+        background-color:#202a36;
+        text-align: center;
+
+    }
+    #centerContentGame{
+        width: 100%;
+        height: auto;
+        background-color: #202a36;
+        text-align: center;
+    }
+    #rightContentGame{
+        width: 100%;
+        height: auto;
+        background-color: #202a36;
+        text-align: center;
     }
     #contentBoxWrapper {
         width: 75%;
@@ -421,22 +442,23 @@ a:hover{
         font-size: small;
     }
     #leftContentGame{
-        width: 30%;
-        height: 100%;
-        background-color:#e5f5ff;
-        float: left;
+        width: 100%;
+        height: auto;
+        background-color:#202a36;
+        text-align: center;
+
     }
     #centerContentGame{
-        width: 30%;
-        height: 100%;
-        background-color: #161d27;
-        float: left;
+        width: 100%;
+        height: auto;
+        background-color: #202a36;
+        text-align: center;
     }
     #rightContentGame{
-        width: 30%;
-        height: 100%;
-        background-color: #161d27;
-        float: left;
+        width: 100%;
+        height: auto;
+        background-color: #202a36;
+        text-align: center;
     }
     #contentBoxWrapper {
         width: 75%;
