@@ -12,6 +12,11 @@ a{
 a:hover{
     color: #e5f5ff;
 }
+iframe{
+    max-width: 900px;
+    width: 95%;
+    aspect-ratio: auto 16 / 9;
+}
 @media screen and (min-width: 951px) {
     #headerWrapper{
         width: 100%;
