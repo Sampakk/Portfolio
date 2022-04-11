@@ -412,6 +412,7 @@ iframe{
         height: 30%;  
         margin: auto;
         text-align: center;
+        padding-top: 10%;
     }
     #rightContent{
         width: 100%;
