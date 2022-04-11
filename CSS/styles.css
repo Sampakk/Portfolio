@@ -319,7 +319,7 @@ a:hover{
         padding-top: 10px;
         color: #6b7fd7;
         margin: 0;
-        font-size: small;
+        font-size: x-small;
     }
     #leftHeader{
         width: 100%;
@@ -348,7 +348,7 @@ a:hover{
         position: relative;
         background: #202a36;
         color: grey;
-        font-size: large;
+        font-size: medium;
         text-align: center;
         overflow-x: hidden;
         overflow-y: auto;
@@ -381,13 +381,13 @@ a:hover{
         padding-top: 5%;
         padding-bottom: 15%;
         margin: auto;
-        font-size: medium;
+        font-size: small;
     }
     #centerContentResume{
         width: 100%;
         height: 30%;  
         margin: auto;
-        font-size: medium;
+        font-size: small;
     }
     #rightContentResume{
         width: 80%;
@@ -396,7 +396,7 @@ a:hover{
         padding-top: 5%;
         padding-bottom: 5%;
         margin: auto;
-        font-size: medium;
+        font-size: small;
     }
     #contentBoxWrapper {
         width: 75%;
@@ -406,7 +406,7 @@ a:hover{
         position: relative;
         background: #202a36;
         color: grey;
-        font-size: x-large;
+        font-size: large;
         padding: 25px;
     }
     #me{
