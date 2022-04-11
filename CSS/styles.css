@@ -400,13 +400,16 @@ a:hover{
     }
     #contentBoxWrapper {
         width: 75%;
-        height: 80%;
+        height: 75%;
         top: 10%;
         margin: 0 auto;
         position: relative;
         background: #202a36;
         color: grey;
         font-size: small;
+        text-align: center;
+        overflow-x: hidden;
+        overflow-y: auto;
         padding: 25px;
     }
     #me{
@@ -421,7 +424,6 @@ a:hover{
         background-color: #161d27;
         padding: 20px;
         float: left;
-        margin-right: 25px;
         margin-bottom: 25px;
     }
     #gamePic{
@@ -439,7 +441,7 @@ a:hover{
         background-color: #161d27;
         padding: 20px;
         float: left;
-        margin-right: 25px;
+
         position: relative;
         margin-bottom: 25px;
     }
@@ -449,7 +451,6 @@ a:hover{
         background-color: #161d27;
         padding: 20px;
         float: left;
-        margin-right: 25px;
         position: relative;
         margin-bottom: 25px;
     }
