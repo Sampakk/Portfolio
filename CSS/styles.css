@@ -400,13 +400,13 @@ a:hover{
     }
     #contentBoxWrapper {
         width: 75%;
-        height: 75%;
+        height: 80%;
         top: 10%;
         margin: 0 auto;
         position: relative;
         background: #202a36;
         color: grey;
-        font-size: large;
+        font-size: small;
         padding: 25px;
     }
     #me{
@@ -423,7 +423,6 @@ a:hover{
         float: left;
         margin-right: 25px;
         margin-bottom: 25px;
-        font-size: medium;
     }
     #gamePic{
         width: 150px;
@@ -443,7 +442,6 @@ a:hover{
         margin-right: 25px;
         position: relative;
         margin-bottom: 25px;
-        font-size: medium;
     }
     #contentBox3{
         width: 90%;
@@ -453,7 +451,6 @@ a:hover{
         float: left;
         margin-right: 25px;
         position: relative;
-        font-size: medium;
         margin-bottom: 25px;
     }
     #leftContentContact{
