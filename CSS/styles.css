@@ -1,0 +1,539 @@
+html, body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'microsoft-yi-baiti-regular', sans-serif;
+    line-height: 1.5;
+}
+a{
+    color: #6b7fd7;
+    text-decoration: none;
+}
+a:hover{
+    color: #e5f5ff;
+}
+@media screen and (min-width: 951px) {
+    #headerWrapper{
+        width: 100%;
+        height: 80px;
+        background-color: #202a36;
+        padding-top: 10px;
+        color: #6b7fd7;
+        margin: 0;
+    }
+    #leftHeader{
+        width: 35%;
+        height: 100%;
+        float: left;
+        padding-left: 13%;
+    }
+    #pageWrapper{
+        width: 100%;
+        height: 100%;
+        background-color: #161d27;
+        margin: 0;
+    }
+    #contentWrapper {
+        width: 75%;
+        height: 75%;
+        top: 10%;
+        margin: 0 auto;
+        position: relative;
+        background: #202a36;
+        color: grey;
+        font-size: xx-large;
+    }
+    #leftContent{
+        width: 37%;
+        height: 100%; 
+        float: left;
+        padding-left: 3%;
+        padding-top: 10%;
+        padding-bottom: 5%;
+        position: relative;
+    }
+    #centerContent{
+        width: 20%;
+        height: 100%;  
+        float: left;
+        padding-top: 10%;
+        padding-bottom: 5%;
+        position: relative;
+    }
+    #rightContent{
+        width: 20%;
+        height: 100%;;    
+        float: right;
+        padding-right: 3%;
+        padding-top: 10%;
+        padding-bottom: 5%;
+        position: relative;
+    }
+    #leftContentResume{
+        width: 30%;
+        height: 100%; 
+        padding-left: 3%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin: auto;
+        float: left;
+        font-size: x-large;
+    }
+    #centerContentResume{
+        width: 30%;
+        height: 100%;  
+        margin: auto;
+        float: left;
+        font-size: x-large;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    #rightContentResume{
+        width: 30%;
+        height: 100%;;    
+        padding-right: 3%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin: auto;
+        float: left;
+        font-size: large;
+    }
+    #contentBoxWrapper {
+        width: 75%;
+        height: 75%;
+        top: 10%;
+        margin: 0 auto;
+        position: relative;
+        background: #202a36;
+        color: grey;
+        font-size: x-large;
+        padding: 25px;
+    }
+    #me{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border: 5px solid #6b7fd7
+        
+    }
+    #gamePic{
+        width: 150px;
+        height: 150px;
+        border: 5px solid #6b7fd7;
+        float: left;
+    }
+    #textBox{
+        padding-left: 200px;
+    }
+    #leftContentContact{
+        width: 30%;
+        padding-left: 3%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        margin: auto;
+        float: left;
+        position: relative;
+
+    }
+    #centerContentContact{
+        width: 30%;
+        padding-left: 3%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        margin: auto;
+        float: left;
+        position: relative;
+
+    }
+    #rightContentContact{
+        width: 30%;
+        height: 100%; 
+        padding-left: 3%;
+        padding-top: 6.5%;
+        padding-bottom: 5%;
+        margin: auto;
+        float: left;
+        position: relative;
+        font-size: x-large;
+
+    }
+}
+@media screen and (max-width: 950px) and (min-width: 751px){
+    #headerWrapper{
+        width: 100%;
+        height: 80px;
+        background-color: #202a36;
+        padding-top: 10px;
+        color: #6b7fd7;
+        margin: 0;
+    }
+    #leftHeader{
+        width: 35%;
+        height: 100%;
+        padding-left: 5%;
+        float: left;
+    }
+    #pageWrapper{
+        width: 100%;
+        height: 100%;
+        background-color: #161d27;
+        margin: 0;
+    }
+    #contentWrapper {
+        width: 75%;
+        height: 75%;
+        top: 10%;
+        margin: 0 auto;
+        position: relative;
+        background: #202a36;
+        color: grey;
+        font-size: x-large;
+        text-align: center;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    #leftContent{
+        width: 80%;
+        height: 30%; 
+        padding-left: 3%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin: auto;
+    }
+    #centerContent{
+        width: 100%;
+        height: 30%;  
+        margin: auto;
+    }
+    #rightContent{
+        width: 80%;
+        height: 30%;;    
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin: auto;
+    }
+    #leftContentResume{
+        width: 80%;
+        height: 30%; 
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin: auto;
+        font-size: medium;
+    }
+    #centerContentResume{
+        width: 100%;
+        height: 30%;
+        padding-top: 10%;
+        margin: auto;
+        font-size: medium;
+    }
+    #rightContentResume{
+        width: 80%;
+        height: 30%;;    
+        padding-top: 10%;
+        padding-bottom: 5%;
+        margin: auto;
+        font-size: medium;
+    }
+    #contentBoxWrapper {
+        width: 75%;
+        height: 75%;
+        top: 10%;
+        margin: 0 auto;
+        position: relative;
+        background: #202a36;
+        color: grey;
+        font-size: x-large;
+        padding: 25px;
+    }
+    #me{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border: 5px solid #6b7fd7;
+    }
+    #contentBox1{
+        width: 90%;
+        height: 160px;
+        background-color: #161d27;
+        padding: 20px;
+        float: left;
+        margin-right: 25px;
+        margin-bottom: 25px;
+    }
+    #gamePic{
+        width: 150px;
+        height: 150px;
+        border: 5px solid #6b7fd7;
+        float: left;
+    }
+    #textBox{
+        padding-left: 200px;
+    }
+    #contentBox2{
+        width: 90%;
+        height: 160px;
+        background-color: #161d27;
+        padding: 20px;
+        float: left;
+        margin-right: 25px;
+        position: relative;
+        margin-bottom: 25px;
+    }
+    #contentBox3{
+        width: 90%;
+        height: 160px;
+        background-color: #161d27;
+        padding: 20px;
+        float: left;
+        margin-right: 25px;
+        position: relative;
+    }
+    #leftContentContact{
+        width: 80%;
+        height: 30%; 
+        padding-left: 3%;
+        padding-top: 5%;
+        padding-bottom: 15%;
+        margin: auto;
+    }
+    #centerContentContact{
+        width: 100%;
+        height: 30%;  
+        margin: auto;
+    }
+    #rightContentContact{
+        width: 80%;
+        height: 30%;;    
+        padding-right: 3%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 750px) and (min-width: 375px){
+    #headerWrapper{
+        width: 100%;
+        height: 160px;
+        background-color: #202a36;
+        padding-top: 10px;
+        color: #6b7fd7;
+        margin: 0;
+        font-size: small;
+    }
+    #leftHeader{
+        width: 100%;
+        height: 100%;
+        float: left;
+        text-align: center;
+    }
+    #rightHeader{
+        width: 100%;
+        height: 100%;
+        float: left; 
+        text-align: center;
+        padding-top: 5%;
+    }
+    #pageWrapper{
+        width: 100%;
+        height: 100%;
+        background-color: #161d27;
+        margin: 0;
+    }
+    #contentWrapper {
+        width: 75%;
+        height: 75%;
+        top: 10%;
+        margin: 0 auto;
+        position: relative;
+        background: #202a36;
+        color: grey;
+        font-size: large;
+        text-align: center;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    #leftContent{
+        width: 80%;
+        height: 30%; 
+        padding-left: 3%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin: auto;
+    }
+    #centerContent{
+        width: 100%;
+        height: 30%;  
+        margin: auto;
+    }
+    #rightContent{
+        width: 80%;
+        height: 30%;;    
+        padding-right: 3%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin: auto;
+    }
+    #leftContentResume{
+        width: 80%;
+        height: 30%; 
+        padding-left: 3%;
+        padding-top: 5%;
+        padding-bottom: 15%;
+        margin: auto;
+        font-size: medium;
+    }
+    #centerContentResume{
+        width: 100%;
+        height: 30%;  
+        margin: auto;
+        font-size: medium;
+    }
+    #rightContentResume{
+        width: 80%;
+        height: 30%;;    
+        padding-right: 3%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin: auto;
+        font-size: medium;
+    }
+    #contentBoxWrapper {
+        width: 75%;
+        height: 75%;
+        top: 10%;
+        margin: 0 auto;
+        position: relative;
+        background: #202a36;
+        color: grey;
+        font-size: x-large;
+        padding: 25px;
+    }
+    #me{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border: 5px solid #6b7fd7;
+    }
+    #contentBox1{
+        width: 90%;
+        height: 160px;
+        background-color: #161d27;
+        padding: 20px;
+        float: left;
+        margin-right: 25px;
+        margin-bottom: 25px;
+        font-size: medium;
+    }
+    #gamePic{
+        width: 150px;
+        height: 150px;
+        border: 5px solid #6b7fd7;
+        float: left;
+    }
+    #textBox{
+        padding-left: 200px;
+    }
+    #contentBox2{
+        width: 90%;
+        height: 160px;
+        background-color: #161d27;
+        padding: 20px;
+        float: left;
+        margin-right: 25px;
+        position: relative;
+        margin-bottom: 25px;
+        font-size: medium;
+    }
+    #contentBox3{
+        width: 90%;
+        height: 160px;
+        background-color: #161d27;
+        padding: 20px;
+        float: left;
+        margin-right: 25px;
+        position: relative;
+        font-size: medium;
+        margin-bottom: 25px;
+    }
+    #leftContentContact{
+        width: 80%;
+        height: 30%; 
+        padding-left: 3%;
+        padding-top: 5%;
+        padding-bottom: 15%;
+        margin: auto;
+    }
+    #centerContentContact{
+        width: 100%;
+        height: 30%;  
+        margin: auto;
+    }
+    #rightContentContact{
+        width: 80%;
+        height: 30%;;    
+        padding-right: 3%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 1733px) and (min-width: 951px) {
+    #contentBox1{
+        width: 95%;
+        height: 160px;
+        background-color: #161d27;
+        padding: 20px;
+        float: left;
+        margin-bottom: 25px;
+    }
+    #contentBox2{
+        width: 95%;
+        height: 160px;
+        background-color: #161d27;
+        padding: 20px;
+        float: left;
+        margin-right: 25px;
+        position: relative;
+        margin-bottom: 25px;
+    }
+    #contentBox3{
+        width: 95%;
+        height: 160px;
+        background-color: #161d27;
+        padding: 20px;
+        float: left;
+        margin-right: 25px;
+        position: relative;
+    }
+}
+@media screen and (min-width: 1733px) {
+    #contentBox1{
+        width: 45%;
+        height: 160px;
+        background-color: #161d27;
+        padding: 20px;
+        float: left;
+        margin-right: 25px;
+        margin-bottom: 25px;
+    }
+    #contentBox2{
+        width: 45%;
+        height: 160px;
+        background-color: #161d27;
+        padding: 20px;
+        float: left;
+        margin-right: 25px;
+        position: relative;
+        margin-bottom: 25px;
+    }
+    #contentBox3{
+        width: 45%;
+        height: 160px;
+        background-color: #161d27;
+        padding: 20px;
+        float: left;
+        margin-right: 25px;
+        position: relative;
+    }
+}
