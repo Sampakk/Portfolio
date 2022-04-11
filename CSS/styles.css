@@ -403,25 +403,22 @@ iframe{
     }
     #leftContent{
         width: 100%;
-        height: 30%; 
+        height: auto;
         text-align: center;
         margin: auto;
     }
     #centerContent{
         width: 100%;
-        height: 30%;  
+        height: auto;  
         margin: auto;
         text-align: center;
-        padding-top: 10%;
     }
     #rightContent{
         width: 100%;
-        height: 30%;;    
-        padding-right: 3%;
-        padding-top: 25%;
-        padding-bottom: 5%;
+        height: auto;    
         margin: auto;
         text-align: center;
+
     }
     #leftContentResume{
         width: 80%;
