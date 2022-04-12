@@ -17,6 +17,21 @@ iframe{
     width: 95%;
     aspect-ratio: auto 16 / 9;
 }
+#submit{
+    color:#6b7fd7;
+    background-color: #161d27;
+    border: 2px;
+    width: 50px;
+    height: 25px;
+}
+#submit:hover{
+    background-color: #e5f5ff;
+}
+#textInput{
+    background-color: #161d27;
+    border-color: #6b7fd7;
+    color: #e5f5ff;
+}
 @media screen and (min-width: 951px) {
     #headerWrapper{
         width: 100%;
