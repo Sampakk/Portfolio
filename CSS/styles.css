@@ -27,7 +27,7 @@ iframe{
 #submit:hover{
     background-color: #e5f5ff;
 }
-#textInput{
+.textInput{
     background-color: #161d27;
     border-color: #6b7fd7;
     color: #e5f5ff;
@@ -156,13 +156,13 @@ iframe{
         border: 5px solid #6b7fd7
         
     }
-    #gamePic{
+    .gamePic{
         width: 150px;
         height: 150px;
         border: 5px solid #6b7fd7;
         float: left;
     }
-    #textBox{
+    .textBox{
         padding-left: 200px;
     }
     #leftContentContact{
@@ -324,13 +324,13 @@ iframe{
         margin-right: 25px;
         margin-bottom: 25px;
     }
-    #gamePic{
+    .gamePic{
         width: 150px;
         height: 150px;
         border: 5px solid #6b7fd7;
         float: left;
     }
-    #textBox{
+    .textBox{
         padding-left: 200px;
     }
     #contentBox2{
@@ -506,13 +506,13 @@ iframe{
         float: left;
         margin-bottom: 25px;
     }
-    #gamePic{
+    .gamePic{
         width: 150px;
         height: 150px;
         border: 5px solid #6b7fd7;
         float: left;
     }
-    #textBox{
+    .textBox{
         padding-left: 200px;
     }
     #contentBox2{
